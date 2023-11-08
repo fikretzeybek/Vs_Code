@@ -1,0 +1,75 @@
+/* Genel sayfa stilleri */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0078d4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hakkımda bölümü stilleri */
+#hakkimda {
+    padding: 20px;
+}
+
+/* Portfolio bölümü stilleri */
+#portfolio {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.portfolio-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+/* İletişim bölümü stilleri */
+#iletisim {
+    background-color: #0078d4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer stilleri */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    margin-left: 10px; /* Başlıkları 20 piksel sola kaydırır, istediğiniz değeri ayarlayabilirsiniz. */
+}

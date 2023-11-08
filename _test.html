@@ -5,59 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/teststyle.css">
 </head>
 
 <body>
-
+    <br>
+    <h1>Büyük Başlık</h1>
+    <a href="deneme.html">Burada bir link var</a>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt facilis delectus cupiditate placeat deserunt
+        quae architecto quibusdam voluptates eum non?</p>
+    <br>
+    <h2>bu bir küçük başlık</h2>
+    <p class="t127">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="ka.html">Lorem </a>ipsum dolor sit
+        amet consectetur adipisicing elit. Debitis, a.Eum illum earum non quod maiores.
+    <div>Paragraf içinde div konuldu</div>Iusto maxime possimus maiores est, veniam id, sit quae asperiores, debitis
+    error voluptate ratione beatae exercitationem.</p>
+    <div>
+        <p>Tamamen satırı işgal eder</p>
+    </div>
+    <span>
+        <p>sadece alanı işgal eder</p>
+    </span>
+    <h1>FORM ÖĞELERİ</h1>
+    <h2>CONTACT</h2>
     <form action="">
-        <br><label for="">Adınız</label>
+        <label for="">Adınız:</label>
+        <input type="text" name="" id="" value="Ahmet">
+        <br><label for="">Soyadınız: </label>
         <input type="text" name="" id="">
-        <br><label for="">Soyadınız</label>
-        <input type="text" name="" id="">
-        <br><label for="">E-Posta</label>
+        <br><label for="">E-Posta: </label>
         <input type="email" name="" id="">
-        <br><label for="">Telefon</label>
+        <br><label for="">Telefon: </label>
         <input type="number" name="" id="" value="905">
-        <br><label for="">Şifre</label>
+        <br><label for="">Şifre: </label>
         <input type="password" name="" id="">
-        <br><label for="">Notunuz</label>
-        <textarea name="mesaj" id="" cols="30" rows="5">mesajınızı buraya giriniz</textarea>
+        <br><label for="">Mesajınız: </label>
+        <textarea name="mesaj" rows="5">Mesajınız</textarea>
         <br>
-        <input type="radio" name="" id="cinsiyet">Kadın
-        <input type="radio" name="" id="cinsiyet">Erkek
-        <input type="radio" name="" id="cinsiyet">Belirtmek istemiyorum
+        <input type="radio" name="cinsiyet" id="K">Kadın
+        <input type="radio" name="cinsiyet" id="E">Erkek
+        <input type="radio" name="cinsiyet" id="N">Belirtmek İstemiyorum
 
         <br>
         <input type="checkbox" name="hobiler" id="">Futbol
         <input type="checkbox" name="hobiler" id="">Basketbol
-        <input type="checkbox" name="hobiler" id="">Karate
-        <input type="checkbox" name="hobiler" id="">Hentbol
+        <input type="checkbox" name="hobiler" id="">Aikido
+        <input type="checkbox" name="hobiler" id="">Karete
+        <input type="checkbox" name="hobiler" id="">Voleybol
 
-        <br><!-- açılır menü oluşturma -->
-        <label for="">İl seçimi</label>
-        <select name="İller" id="aynı">
+        <br><!-- Açılır menüden veri seçtirme işlemi -->
+        <label for="">İl Seçiniz</label>
+        <select name="iller" id="ayni">
             <option value="01">Adana</option>
             <option value="02">Adıyaman</option>
-            <option value="03">Afyon</option>
+            <option value="03">Afyonkarahisar</option>
             <option value="04">Ağrı</option>
-
+            <option value="43">Kütahya</option>
+            <option value="06">Ankara</option>
+            <option value="35">İzmir</option>
+            <option value="34">İstanbul</option>
         </select>
         <br>
         <input type="file" name="" id="">
         <br>
-
         <br><input type="button" value="Gönder"><input type="reset" value="Reset">
 
-
     </form>
-
-
-
-
-
-
-
-
 </body>
 
 </html>

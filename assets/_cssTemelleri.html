@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Açıklamaları İle Temel Kullanım Örneği</title>
+    <style>
+        /* CSS kuralları bu içerik bloğu içine yazılır. */
+
+        /* Örneğin, tüm paragrafları kırmızı renk yapalım. */
+        p {
+            color: red; /* Paragrafların yazı rengini kırmızı olarak ayarlar. */
+        }
+
+        /* Başlıkları büyük ve kalın yapalım. */
+        h1, h2, h3 {
+            font-size: 24px; /* Yazı tipi boyutunu 24 piksel olarak ayarlar. */
+            font-weight: bold; /* Yazıyı kalın hale getirir. */
+        }
+
+        /* Belirli bir öğeyi özelleştirmek için id kullanabiliriz. */
+        #ozel-ozellik {
+            background-color: yellow; /* Arkaplan rengini sarı olarak ayarlar. */
+        }
+
+        /* Belirli bir öğeyi sınıf kullanarak özelleştirebiliriz. */
+        .mavi-yazi {
+            color: blue; /* Yazı rengini mavi olarak ayarlar. */
+        }
+
+        /* Belirli bir öğeyi etiket ve sınıf kombinasyonu ile özelleştirebiliriz. */
+        p.italik {
+            font-style: italic; /* Yazıyı italik yapar. */
+        }
+
+        /* Yorumlar, kodun daha iyi anlaşılmasına yardımcı olur. */
+    </style>
+</head>
+<body>
+    <h1>Başlık 1</h1>
+    <p class="italik">Bu bir italik paragraf.</p>
+    <p class="mavi-yazi">Bu mavi renkli bir paragraf.</p>
+    <p>Diğer bir paragraf.</p>
+    <div id="ozel-ozellik">Bu özel bir özellik taşıyan bir div.</div>
+</body>
+</html>
